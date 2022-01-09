@@ -1,0 +1,25 @@
+.map{
+  background: white;
+  overflow:hidden;
+
+h5{
+  color: maroon;
+  font-weight:900;
+}
+
+p{
+  color: maroon;
+  font-weight:500;
+}
+
+  .embed-responsive{
+    
+  }
+
+  iframe{
+      pointer-events:all;
+      width:100%;
+      max-height: 100vh;
+      bottom: 0;
+  }
+}

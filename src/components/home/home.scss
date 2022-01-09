@@ -1,0 +1,16 @@
+.home{
+  background: white;
+  color: black;
+  position:relative;
+
+
+  img {
+    clip: rect(0px,60px,200px,0px);
+    display: block;
+    width:100%;
+    max-height: 50vh;
+    object-fit:cover;
+    object-position: center top;
+
+  }
+}

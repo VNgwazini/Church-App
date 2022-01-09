@@ -1,0 +1,18 @@
+.bulletin{
+  background: white;
+  color: black;
+
+  h5{
+    color: maroon;
+    font-weight:900;
+  }
+  button{
+    background-color: maroon;
+    color: white !important;
+  }
+  iframe {
+    display: block;       /* iframes are inline by default */
+    height: calc(100vh - 300px);        /* Viewport-relative units */
+    width: 100vw;
+  }
+}
