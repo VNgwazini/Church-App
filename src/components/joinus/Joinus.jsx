@@ -13,9 +13,9 @@ export default function Joinus() {
     <>
       <Container className="joinus py-4 content-container" id="joinus" fluid="true">
       <Row>
-        <Col className="d-flex justify-content-center align-items-center">
+        <Col className="d-flex justify-content-center align-items-center py-4">
           <Card className="card-size">
-            <Card.Title className="text-center px-2">JOIN US FOR WORSHIP</Card.Title>
+            <Card.Title className="text-center px-2 py-4">JOIN US FOR WORSHIP</Card.Title>
             <Card.Body className="text-center">
             <Card.Subtitle className="text-center text-muted">
                 Friday
