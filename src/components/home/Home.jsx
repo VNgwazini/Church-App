@@ -6,6 +6,7 @@ import Map from "../map/Map";
 import Welcome from "../welcome/Welcome";
 import Projects from "../projects/Projects";
 import Joinus from "../joinus/Joinus";
+import Links from "../links/Links";
 
 export default function Home() {
 
@@ -18,6 +19,7 @@ export default function Home() {
       />
       </Container>
     <Welcome/>
+    <Links/>
     <Joinus/>
     <Map/>
     <Projects/>

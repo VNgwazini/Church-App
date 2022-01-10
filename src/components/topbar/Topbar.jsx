@@ -30,15 +30,15 @@ export default function Topbar() {
           </Nav.Link>
           <Nav.Link href="https://ssnet.org/lessons/mobile.html" target="_blank">
             <MenuBook className="icon"/>
-            &nbsp; Learn
+            &nbsp; Learning
           </Nav.Link>
           <Nav.Link href="https://www.youtube.com/channel/UC5jYWyaWW3b0r7MUrK1WVxw/featured" target="_blank">
             <YouTube className="icon"/>
-            &nbsp; Watch
+            &nbsp; Watching
           </Nav.Link>
           <Nav.Link href="https://adventistgiving.org/#/org/ANPMAL/envelope/start" target="_blank">
             <CreditCard className="icon"/>
-            &nbsp; Donate
+            &nbsp; Giving
           </Nav.Link>
           <Nav.Link href="https://goo.gl/maps/sGgVPa6nGTDTewJL7" target="_blank">
             <Directions className="icon"/>

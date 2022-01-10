@@ -45,3 +45,42 @@ export const projectData = [
     imgAlt: "NETS",
   },
 ];
+
+export const linksData = [
+  {
+    id: 1,
+    title: "Worship Schedule",
+    link: "https://demo-church-app.vusa.io/bulletin",
+    text: "This Saturday's worship schedule, announcements, and prayer requests.",
+    footer: "2022 · Ministries",
+    imgSrc: "https://allnationsafricanchurch.com/wp-content/uploads/2018/08/bulletin.png",
+    imgAlt: "BULLETIN",
+  },
+  {
+    id: 2,
+    title: "Bible Study",
+    link: "https://ssnet.org/lessons/mobile.html",
+    text: "This week's bible study lesson, devotional, and mission story.",
+    footer: "2022 · Ministries",
+    imgSrc: "http://allnationsafricanchurch.com/wp-content/uploads/2017/08/BibleandOilLamp.jpg",
+    imgAlt: "LEARNING",
+  },
+  {
+    id: 3,
+    title: "Weekly Message",
+    link: "https://www.youtube.com/channel/UC5jYWyaWW3b0r7MUrK1WVxw/featured",
+    text: "Watch this week's message live as well as all previous sermons.",
+    footer: "2022 · Ministries",
+    imgSrc: "https://allnationsafricanchurch.com/wp-content/uploads/2017/10/slider-img3.jpg",
+    imgAlt: "WATCHING",
+  },
+  {
+    id: 4,
+    title: "Tithe and Offering",
+    link: "https://adventistgiving.org/#/org/ANPMAL/envelope/start",
+    text: "Support our local church ministry and global outreach initiatives.",
+    footer: "2022 · Missions",
+    imgSrc: "https://allnationsafricanchurch.com/wp-content/uploads/2017/08/allnations_hero.jpg",
+    imgAlt: "GIVING",
+  },
+];

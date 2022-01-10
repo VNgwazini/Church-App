@@ -1,0 +1,23 @@
+.links{
+  background: white;
+  color: maroon;
+
+  a:link, a:visited,  a:hover, a:active
+  {
+      color: #000000;
+      text-decoration: none;
+  }
+  
+  h5{
+    font-weight:900;
+  }
+  .img-thumbnail {
+    height: 25vh;
+    object-fit:cover;
+  }
+  .card-size{
+    height: 100%;
+    color: maroon !important;
+
+  }
+}

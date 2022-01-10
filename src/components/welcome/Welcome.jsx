@@ -29,7 +29,7 @@ export default function Welcome() {
 
   return (
     <>
-      <Container className="welcome content-container" id="welcome" fluid="true">
+      <Container className="welcome content-container pb-4" id="welcome" fluid="true">
       <Row>
         <Col className="d-flex justify-content-center align-items-center">
           <Card className="card-size">
