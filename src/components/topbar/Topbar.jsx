@@ -22,7 +22,7 @@ export default function Topbar() {
           </Nav.Link>
           <Nav.Link href="/projects">
               <Apps className="icon"/>
-              &nbsp; Ministries &amp; Missions
+              &nbsp; Ministries
           </Nav.Link>
           <Nav.Link href="/bulletin">
             <Description className="icon"/>
