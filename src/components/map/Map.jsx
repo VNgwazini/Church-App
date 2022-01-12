@@ -1,6 +1,7 @@
 import "./map.scss";
 import {
   Container,
+  Badge
  } from 'react-bootstrap/'
   
  export default function Map() {
@@ -21,7 +22,12 @@ import {
       >
       </iframe>
     </Container>
-    <p className="directions d-flex justify-content-center pb-4">2282 Pumalo St, San Bernardino, CA 92404</p>
+    <p className="directions d-flex justify-content-center">2282 Pumalo St, San Bernardino, CA 92404</p>
+    <a href="https://goo.gl/maps/9moeHe6fZFbXKZTF8" target="_blank">
+      <p className="directions d-flex justify-content-center pb-4">
+      <Badge bg="danger">Click Here to Open Google Maps</Badge>
+      </p>
+    </a>
   </>
   )
  }
