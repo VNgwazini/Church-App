@@ -64,7 +64,7 @@ export default function Home() {
             </Card.Body>
           </Card>
         </Col>
-        <Col className="d-flex justify-content-center align-items-center" lg={4} md={12} sm={12}>
+        <Col className="d-flex justify-content-center align-items-center py-4 px-4" lg={4} md={12} sm={12}>
         <Card className="card-size flex-grow-1">
           <Card.Title className="text-center px-2">DIRECTIONS</Card.Title>
           <Card.Body className="text-center">
