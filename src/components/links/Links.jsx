@@ -4,6 +4,8 @@ import {
   Row,
   Container,
 } from 'react-bootstrap/'
+import FadeIn from 'react-fade-in';
+
 
 import {
   linksData,
@@ -17,13 +19,15 @@ export default function Links() {
   return (
     <>
     <Container className="projects content-container pt-4" id="projects" fluid="true">
-      <Row className="mx-4">
-        {data.map((item) => (
-          <>
-            <LinksListItem item={item}/>
-          </>
-        ))}
-      </Row>
+      <FadeIn>
+        <Row className="mx-4">
+          {data.map((item) => (
+            <>
+              <LinksListItem item={item}/>
+            </>
+          ))}
+        </Row>
+      </FadeIn>
     </Container>
     </>
   )
