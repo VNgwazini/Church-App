@@ -69,7 +69,7 @@ export default function Home() {
           </Row>
           <Row>
             <Col className="">
-              <p className="text-center py-2">
+              <p className="text-center py-2 px-2">
               The All Nations African Seventh-Day Adventist Church exists as part of the body of Jesus Christ to nurture believers by providing a positive, spiritual and culturally sensitive environment for the African community and other nations.
               </p>
             </Col>
