@@ -19,7 +19,7 @@ export default function Projects() {
 
   return (
     <>
-    <Container className="projects content-container" id="projects" fluid="true">
+    <Container className="projects content-container" id="projects">
       <FadeIn>
         <Row>
           <Col className="d-flex justify-content-center">
