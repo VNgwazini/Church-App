@@ -229,6 +229,17 @@ export default function Home() {
           </Col>
           </Row>
       </Container>
+            <Container className="py-2">
+        <Row>
+          <Col>
+            <p className="signature text-center">
+              <a href="https://vusa.io/" target="_blank" rel="noreferrer">
+                Built by Vusumuzi Ngwazini | vusa.io
+              </a>
+            </p>
+          </Col>
+        </Row>
+      </Container>
     </FadeIn>
    </Container>
   )
