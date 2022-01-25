@@ -1,51 +1,99 @@
 .home{
-  background: white;
-  color: black;
+  font-size: large;
   position:relative;
+  background: white;
+  color: maroon;
 
 
-  // img {
-  //   clip: rect(0px,60px,200px,0px);
-  //   display: block;
-  //   width:100%;
-  //   max-height: 40vh;
-  //   object-fit:cover;
-  //   object-position: center top;
-  // }
-
-  .card-title{
-    color: maroon;
-    font-weight:900;
+  .home-title{
+    font-size: xx-large;
+    font-weight: 900;
   }
 
-  .card-subtitle{
-    color: maroon !important;
-    font-weight:900;
+  .trusted{
+    background-color: whitesmoke;
+    p{
+      font-size: medium;
+    }
   }
 
-  .list-group{
-    font-weight: 700;
+  .trusted-title{
+    font-size: large;
+    font-weight: 900;
   }
 
-  .card-size{
-    background: white;
-    border: transparent;
+  .primary-buttons{
+    justify-content: space-around !important;
+    text-align: center;
+  }
+
+  .testimonials{
+    h3{
+      color: maroon;
+    }
+    p{
+      color: black;
+      font-size: medium;
+    }
+  }
+  .list-group-item{
+    font-size: medium;
+  }
+  .card{
+    border-color: transparent !important;
+  }
+
+  .card-text{
+    font-size: medium;
   }
 
   iframe{
     width: 100%;
   }
 
-  .card-text{
+  .hours{
+    background-color: whitesmoke;
+    .card{
+      background-color: whitesmoke;
+      .card-title{
+        font-size: x-large;
+        font-weight: bold;
+      }
+      .list-group-item{
+        background-color: whitesmoke;
+      }
+    }
+  }
+
+  .map{
+    .card{
+      background-color: whitesmoke;
+    }
+  }
+
+  .heading{
+    background-color: whitesmoke;
+  }
+
+  .typing{
     color: maroon;
   }
 
-  .col{
-    align-self: stretch;
+  .badge{
+    background-color: maroon;
+    color: white;
   }
 
-  .badge{
-    color: white;
-    background-color: maroon;
+  .watching{
+    .card{
+      background-color: white;
+    }
+    .card-title{
+      font-weight: bold;
+    }
+    .day{
+      font-weight: bold !important;
+    }
   }
+
 }

@@ -1,0 +1,51 @@
+.app{
+  background: white;
+  color: black;
+  position:relative;
+
+
+  // img {
+  //   clip: rect(0px,60px,200px,0px);
+  //   display: block;
+  //   width:100%;
+  //   max-height: 40vh;
+  //   object-fit:cover;
+  //   object-position: center top;
+  // }
+
+  .card-title{
+    color: maroon;
+    font-weight:900;
+  }
+
+  .card-subtitle{
+    color: maroon !important;
+    font-weight:900;
+  }
+
+  .list-group{
+    font-weight: 700;
+  }
+
+  .card-size{
+    background: white;
+    border: transparent;
+  }
+
+  iframe{
+    width: 100%;
+  }
+
+  .card-text{
+    color: maroon;
+  }
+
+  .col{
+    align-self: stretch;
+  }
+
+  .badge{
+    color: white;
+    background-color: maroon;
+  }
+}

@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
-import Home from './components/home/Home';
+import App from './components/app/App';
 import Projects from './components/projects/Projects';
 import Bulletin from './components/bulletin/Bulletin';
 import { BrowserRouter, Route } from 'react-router-dom'
@@ -14,8 +14,8 @@ import Footer from './components/footer/Footer';
 ReactDOM.render(
     <BrowserRouter>
     <Topbar/>
-      <Route exact path="/" component={Home}/>
-      <Route exact path="/home" component={Home}/>
+      <Route exact path="/" component={App}/>
+      <Route exact path="/home" component={App}/>
       <Route exact path="/projects" component={Projects}/>
       <Route exact path="/bulletin" component={Bulletin}/>
     <Footer/>

@@ -18,9 +18,9 @@ export default function Links() {
 
   return (
     <>
-    <Container className="projects content-container pt-4" id="projects" fluid="true">
+    <Container className="links content-container pt-4" id="links" fluid="true">
       <FadeIn>
-        <Row className="mx-4">
+        <Row className="px-4">
           {data.map((item) => (
             <>
               <LinksListItem item={item}/>
