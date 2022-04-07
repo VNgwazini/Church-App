@@ -57,19 +57,10 @@ export const projectData = [
 
 export const linksData = [
   {
-    id: 1,
-    title: "Worship Schedule",
-    link: "https://demo-church-app.vusa.io/bulletin",
-    text: "This Saturday's worship schedule, announcements, and prayer requests.",
-    footer: "2022 · Ministries",
-    imgSrc: "https://allnationsafricanchurch.com/wp-content/uploads/2018/08/bulletin.png",
-    imgAlt: "BULLETIN",
-  },
-  {
     id: 2,
     title: "Bible Study",
     link: "https://ssnet.org/lessons/mobile.html",
-    text: "This week's bible study lesson, devotional, and mission story.",
+    text: "View this week's bible study lesson, devotional, and mission story.",
     footer: "2022 · Ministries",
     imgSrc: "http://allnationsafricanchurch.com/wp-content/uploads/2017/08/BibleandOilLamp.jpg",
     imgAlt: "LEARNING",
@@ -91,5 +82,14 @@ export const linksData = [
     footer: "2022 · Missions",
     imgSrc: "https://allnationsafricanchurch.com/wp-content/uploads/2017/08/allnations_hero.jpg",
     imgAlt: "GIVING",
+  },
+  {
+    id: 1,
+    title: "Worship Schedule",
+    link: "https://demo-church-app.vusa.io/bulletin",
+    text: "View this Saturday's worship schedule, announcements, and prayer requests.",
+    footer: "2022 · Ministries",
+    imgSrc: "https://allnationsafricanchurch.com/wp-content/uploads/2018/08/bulletin.png",
+    imgAlt: "BULLETIN",
   },
 ];

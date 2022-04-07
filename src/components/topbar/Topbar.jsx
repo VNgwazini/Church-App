@@ -24,10 +24,6 @@ export default function Topbar() {
               <Apps className="icon"/>
               &nbsp; Ministries
           </Nav.Link>
-          <Nav.Link href="/bulletin">
-            <Description className="icon"/>
-            &nbsp; Bulletin
-          </Nav.Link>
           <Nav.Link href="https://ssnet.org/lessons/mobile.html" target="_blank">
             <MenuBook className="icon"/>
             &nbsp; Learning
@@ -39,6 +35,10 @@ export default function Topbar() {
           <Nav.Link href="https://adventistgiving.org/#/org/ANPMAL/envelope/start" target="_blank">
             <CreditCard className="icon"/>
             &nbsp; Giving
+          </Nav.Link>
+          <Nav.Link href="/bulletin">
+            <Description className="icon"/>
+            &nbsp; Bulletin
           </Nav.Link>
           <Nav.Link href="https://goo.gl/maps/sGgVPa6nGTDTewJL7" target="_blank">
             <Directions className="icon"/>
