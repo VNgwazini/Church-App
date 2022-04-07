@@ -2,6 +2,26 @@
   background: white;
   color: black;
 
+  .hours{
+    background-color: white;
+    .card{
+      border-color: transparent !important;
+      background-color: white;
+      .card-title{
+        font-size: x-large;
+        font-weight: bold;
+      }
+      .list-group-item{
+        background-color: white;
+      }
+      .card-text{
+        font-size: medium;
+      }
+    }
+    .map{
+        background-color: white !important;
+    }
+  }
   .typing{
     color: maroon;
   }
@@ -22,5 +42,9 @@
   .card-size{
     background: white;
     border: transparent;
+  }
+
+  iframe{
+    width: 100%;
   }
 }
