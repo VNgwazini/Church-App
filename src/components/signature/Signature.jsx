@@ -10,7 +10,7 @@ import FadeIn from 'react-fade-in';
 export default function Signature() {
  
  return (
-  <Container className="home content-container py-4" id="home" fluid="true">
+  <Container className="home content-container pt-2 pb-4" id="home" fluid="true">
     <FadeIn>
       <Container className="pb-2">
         <Row>

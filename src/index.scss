@@ -20,7 +20,7 @@ code {
 /* Hide scrollbar for IE, Edge and Firefox */
 .content-container {
   width: 100%;
-  padding: 50px 0;
+  padding: 0px 0;
   overflow-y: scroll; /* Add the ability to scroll */
   overflow-x: hidden;
   -ms-overflow-style: none;  /* IE and Edge */
@@ -31,8 +31,7 @@ code {
   width: 100vw;
 }
 
-a:link, a:visited,  a:hover, a:active
-{
+a:link, a:visited,  a:hover, a:active{
     text-decoration: none;
 }
 

@@ -30,7 +30,7 @@ export default function Home() {
   }, [])
 
  return (
-  <Container className="home content-container py-4" id="home">
+  <Container className="home content-container pt-4" id="home">
     <FadeIn>
       <Container className="content-container py-4" fluid="true">
         <FadeIn>
