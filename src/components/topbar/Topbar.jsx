@@ -4,7 +4,7 @@ import {
   Nav, 
   Navbar
 } from 'react-bootstrap/'
-import {Home, Apps, Description, MenuBook, Mail, Directions, YouTube, CreditCard } from "@material-ui/icons"
+import {Home, Apps, MenuBook, Mail, Directions, YouTube, CreditCard } from "@material-ui/icons"
 
 export default function Topbar() {
   return (
@@ -24,10 +24,6 @@ export default function Topbar() {
               <Apps className="icon"/>
               &nbsp; Ministries
           </Nav.Link>
-          <Nav.Link href="/bulletin">
-            <Description className="icon"/>
-            &nbsp; Bulletin
-          </Nav.Link>
           <Nav.Link href="https://ssnet.org/lessons/mobile.html" target="_blank">
             <MenuBook className="icon"/>
             &nbsp; Learning
@@ -40,6 +36,10 @@ export default function Topbar() {
             <CreditCard className="icon"/>
             &nbsp; Giving
           </Nav.Link>
+          {/* <Nav.Link href="/bulletin">
+            <Description className="icon"/>
+            &nbsp; Bulletin
+          </Nav.Link> */}
           <Nav.Link href="https://goo.gl/maps/sGgVPa6nGTDTewJL7" target="_blank">
             <Directions className="icon"/>
             &nbsp; Directions

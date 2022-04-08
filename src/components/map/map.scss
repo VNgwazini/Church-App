@@ -1,19 +1,25 @@
 .map{
+  font-size: large;
+  position:relative;
   background: white;
-  overflow:hidden;
- }
-  
- .directions-h{
   color: maroon;
-  font-weight:900;
+  background-color: whitesmoke;
+  .card{
+    border-color: transparent !important;
+    background-color: whitesmoke;
+    .card-title{
+      font-size: x-large;
+      font-weight: bold;
+    }
+    .list-group-item{
+      background-color: whitesmoke;
+    }
+    .card-text{
+      font-size: medium;
+    }
+  }
+  a:link, a:visited,  a:hover, a:active{
+    text-decoration: none;
+  }
  }
-  
- .directions{
-  color: maroon;
-  font-weight:500;
- }
-
- .badge{
-   color: white;
-   background-color: maroon;
- }
+ 

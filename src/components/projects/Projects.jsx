@@ -19,7 +19,7 @@ export default function Projects() {
 
   return (
     <>
-    <Container className="projects content-container" id="projects">
+    <Container className="projects content-container py-4" id="projects" fluid="true">
       <FadeIn>
         <Row>
           <Col className="d-flex justify-content-center">

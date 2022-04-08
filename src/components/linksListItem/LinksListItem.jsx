@@ -6,7 +6,7 @@ import {
 
 export default function LinksListItem({item}) {
   return (
-        <Col className="d-flex justify-content-center text-center linksListItem py-4" lg={3} md={6} sm={6}>
+        <Col className="d-flex justify-content-center text-center linksListItem my-4 py-4" lg={4} md={4} sm={4} xs={12}>
           <a 
             href={item.link}
             target="_blank" rel="noreferrer"
