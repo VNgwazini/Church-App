@@ -83,13 +83,13 @@ export const linksData = [
     imgSrc: "https://allnationsafricanchurch.com/wp-content/uploads/2017/08/allnations_hero.jpg",
     imgAlt: "GIVING",
   },
-  {
-    id: 1,
-    title: "Worship Schedule",
-    link: "https://demo-church-app.vusa.io/bulletin",
-    text: "View this week's bulletin.",
-    footer: "2022 · Ministries",
-    imgSrc: "https://allnationsafricanchurch.com/wp-content/uploads/2018/08/bulletin.png",
-    imgAlt: "BULLETIN",
-  },
+  // {
+  //   id: 1,
+  //   title: "Worship Schedule",
+  //   link: "https://demo-church-app.vusa.io/bulletin",
+  //   text: "View this week's bulletin.",
+  //   footer: "2022 · Ministries",
+  //   imgSrc: "https://allnationsafricanchurch.com/wp-content/uploads/2018/08/bulletin.png",
+  //   imgAlt: "BULLETIN",
+  // },
 ];

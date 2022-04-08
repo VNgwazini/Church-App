@@ -36,10 +36,10 @@ export default function Topbar() {
             <CreditCard className="icon"/>
             &nbsp; Giving
           </Nav.Link>
-          <Nav.Link href="/bulletin">
+          {/* <Nav.Link href="/bulletin">
             <Description className="icon"/>
             &nbsp; Bulletin
-          </Nav.Link>
+          </Nav.Link> */}
           <Nav.Link href="https://goo.gl/maps/sGgVPa6nGTDTewJL7" target="_blank">
             <Directions className="icon"/>
             &nbsp; Directions

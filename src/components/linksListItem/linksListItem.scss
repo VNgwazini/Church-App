@@ -2,12 +2,16 @@
   background: inherit;
   color: inherit;
 
-h5{
-  color: maroon;
-}
+  h5{
+    color: maroon;
+  }
 
   .card-footer{
     color: maroon !important;
     font-weight: 700;
+  }
+
+  .card-img {
+    object-fit:contain;
   }
 }
