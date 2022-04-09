@@ -15,9 +15,9 @@ export default function Joinus() {
     <>
       <Container className="joinus content-container" id="home" fluid="false">
       <FadeIn>
-        <Container className="hours content-container py-4 px-4" id="home" fluid="false">
+        <Container className="hours content-container pt-4 px-4" id="home" fluid="false">
           <Row>
-            <Col className="d-flex justify-content-center py-4" lg={4} md={12} sm={12} xs={12}>
+            <Col className="d-flex justify-content-center pt-4" lg={4} md={12} sm={12} xs={12}>
               <Card className="card-size">
                 <Card.Title className="text-center px-2">Join Us For Worship</Card.Title>
                   <Card.Body className="text-center">
@@ -56,6 +56,9 @@ export default function Joinus() {
                   >
                   </iframe>
                   <br></br>
+                  <Card.Text className="pt-4">
+                  Sermon: "What Do You Have in the House?" by Brother Charles Eaton
+                  </Card.Text>
                 </Card.Body>
               </Card>
             </Col>

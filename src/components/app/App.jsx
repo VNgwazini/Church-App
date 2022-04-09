@@ -16,10 +16,10 @@ export default function App() {
    <FadeIn>
      <Home/>
      <OfferedServices/>
-     <Links/>
      <Joinus/>
      {/* <Projects/> */}
-     <Map/>
+    <Links/>
+    <Map/>
      <Signature/>
    </FadeIn>
    </>
