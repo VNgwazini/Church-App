@@ -50,6 +50,11 @@
   iframe{
     width: 100%;
   }
+  img {
+    float: left;
+    height: 480px;
+    object-fit: fill;
+}
 
   .hours{
     background-color: whitesmoke;
