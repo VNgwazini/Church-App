@@ -12,7 +12,7 @@ export default function Topbar() {
       <Navbar collapseOnSelect expand="lg" bg="light" variant="light" fixed="top" id="navbar">
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Brand href="/">
-          <img src="http://allnationsafricanchurch.com/wp-content/uploads/2018/08/Anasda_logo.png" alt=""/>
+          <img src="assets/Anasda_logo.png" alt=""/>
         </Navbar.Brand>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
