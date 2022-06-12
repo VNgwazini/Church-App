@@ -4,7 +4,7 @@ import {
   Nav, 
   Navbar
 } from 'react-bootstrap/'
-import {Home, Apps, MenuBook, Mail, Directions, YouTube, CreditCard } from "@material-ui/icons"
+import {Home, MenuBook, Mail, Directions, YouTube, CreditCard } from "@material-ui/icons"
 
 export default function Topbar() {
   return (
