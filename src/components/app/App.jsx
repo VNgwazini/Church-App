@@ -13,15 +13,15 @@ export default function App() {
  
  return (
    <>
-   <FadeIn>
-     <Home/>
-     <OfferedServices/>
-     <Joinus/>
-     {/* <Projects/> */}
-    <Links/>
-    <Map/>
-     <Signature/>
-   </FadeIn>
+    <FadeIn>
+      <Home/>
+      <OfferedServices/>
+      <Joinus/>
+      {/* <Projects/> */}
+      <Links/>
+      <Map/>
+      <Signature/>
+    </FadeIn>
    </>
  )
 }

@@ -20,10 +20,6 @@ export default function Topbar() {
             <Home className="icon"/>
             &nbsp; Home
           </Nav.Link>
-          <Nav.Link href="/projects">
-              <Apps className="icon"/>
-              &nbsp; Ministries
-          </Nav.Link>
           <Nav.Link href="https://ssnet.org/lessons/mobile.html" target="_blank">
             <MenuBook className="icon"/>
             &nbsp; Learning
@@ -44,10 +40,14 @@ export default function Topbar() {
             <Directions className="icon"/>
             &nbsp; Directions
           </Nav.Link>
-          <Nav.Link href="mailto:allnationsmailbox@gmail.com" target="_blank">
+          <Nav.Link href="/contact_us">
+              <Mail className="icon"/>
+              &nbsp; Contact Us
+          </Nav.Link>
+          {/* <Nav.Link href="mailto:allnationsmailbox@gmail.com" target="_blank">
             <Mail className="icon"/>
             &nbsp; Contact Us
-          </Nav.Link>
+          </Nav.Link> */}
           </Nav>
         </Navbar.Collapse>
       </Navbar>

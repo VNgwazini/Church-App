@@ -16,7 +16,7 @@ ReactDOM.render(
     <Topbar/>
       <Route exact path="/" component={App}/>
       <Route exact path="/home" component={App}/>
-      <Route exact path="/projects" component={Projects}/>
+      <Route exact path="/contact_us" component={Projects}/>
       <Route exact path="/bulletin" component={Bulletin}/>
     <Footer/>
     </BrowserRouter>,

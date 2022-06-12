@@ -1,9 +1,18 @@
 .projectListItem{
   background: inherit;
   color: inherit;
-
+  .img-thumbnail {
+    height:15em;
+    object-fit:cover;
+  }
   .card-footer{
     color: maroon !important;
     font-weight: 700;
+  }
+  .card{
+    color: maroon !important;
+  }
+  a:link, a:visited,  a:hover, a:active{
+    text-decoration: none;
   }
 }
