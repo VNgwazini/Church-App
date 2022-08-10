@@ -16,7 +16,7 @@ export default function Links() {
 
   return (
     <>
-    <Container className="links content-container pb-4" id="projects" fluid="true">
+    <Container className="links content-container pb-4" id="projects">
       <Row className="mx-4">
         {data.map((item) => (
           <>

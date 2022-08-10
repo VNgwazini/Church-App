@@ -23,7 +23,7 @@ export const linksData = [
   {
     id: 2,
     title: "Bible Study",
-    link: "https://ssnet.org/lessons/mobile.html",
+    link: "https://sabbath-school.adventech.io/en",
     text: "View this week's bible study lesson.",
     footer: "2022 · Ministries",
     imgSrc: "assets/Church_bible.jpg",

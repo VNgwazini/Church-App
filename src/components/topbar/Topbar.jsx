@@ -20,7 +20,7 @@ export default function Topbar() {
             <Home className="icon"/>
             &nbsp; Home
           </Nav.Link>
-          <Nav.Link href="https://ssnet.org/lessons/mobile.html" target="_blank">
+          <Nav.Link href="https://sabbath-school.adventech.io/en" target="_blank">
             <MenuBook className="icon"/>
             &nbsp; Learning
           </Nav.Link>

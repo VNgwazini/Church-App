@@ -13,7 +13,7 @@ export default function Joinus() {
 
   return (
     <>
-      <Container className="joinus content-container" id="home" fluid="false">
+      <Container className="joinus content-container" id="home">
       <FadeIn>
         <Container className="hours content-container pt-4 px-4" id="home" fluid="false">
           <Row>

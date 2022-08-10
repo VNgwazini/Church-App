@@ -24,7 +24,7 @@ export default function Projects() {
 
   return (
     <>
-    <Container className="projects content-container pt-4" id="contact_us" fluid="true">
+    <Container className="projects content-container pt-4" id="contact_us">
       <FadeIn className="pt-4">
         <Row>
           <Col className="">
@@ -42,7 +42,7 @@ export default function Projects() {
         </Row>
       </FadeIn>
     </Container>
-    <Container className="home content-container" id="home" fluid="true">
+    <Container className="home content-container" id="home">
       <FadeIn>
         <Container className="hours content-container px-4" id="home" fluid="true">
           <Row>
@@ -50,7 +50,7 @@ export default function Projects() {
               <Card className="card-size">
               <Card.Title className="text-center px-2">Contact Us</Card.Title>
                 <Card.Body className="d-flex align-items-center text-center">
-                  <Form>
+                  <Form action="https://formsubmit.co/vusumuzi.ngwazini@gmail.com" method="POST">
                     <p className="text-center pt-4">
                       Welcome! We're so glad you're interested in worshiping with us. Help us get to know you by filling out this card so we can reach out to you. We hope you have a blessed day!
                     </p>
@@ -61,6 +61,7 @@ export default function Projects() {
                     <Form.Group className="mb-3" controlId="formBasicEmail">
                       <Form.Label>Email address</Form.Label>
                       <Form.Control type="email" placeholder="Enter email here..." />
+                      <Form.Control type="hidden" name="_url" value="https://demo-church-app.vusa.io/contact_us" />
                       <Form.Text className="text-muted">
                         We'll never share your email with anyone else.
                       </Form.Text>
