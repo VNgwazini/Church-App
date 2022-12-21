@@ -56,19 +56,20 @@ export default function Projects() {
                     </p>
                     <Form.Group className="mb-3" controlId="formBasicPassword">
                       <Form.Label>Name</Form.Label>
-                      <Form.Control type="name" placeholder="Enter name here..." />
+                      <Form.Control type="name" name="name" placeholder="Enter name here..." />
                     </Form.Group>
                     <Form.Group className="mb-3" controlId="formBasicEmail">
                       <Form.Label>Email address</Form.Label>
-                      <Form.Control type="email" placeholder="Enter email here..." />
+                      <Form.Control type="email" name="email" placeholder="Enter email here..." />
                       <Form.Control type="hidden" name="_url" value="https://demo-church-app.vusa.io/contact_us" />
+                      <Form.Control type="hidden" name="_next" value="https://demo-church-app.vusa.io/" />
                       <Form.Text className="text-muted">
                         We'll never share your email with anyone else.
                       </Form.Text>
                     </Form.Group>
                     <Form.Group className="mb-3" controlId="formBasicMessage">
                       <Form.Label>Personal Message</Form.Label>
-                      <Form.Control as="textarea" type="textarea" placeholder="Enter message here..." />
+                      <Form.Control as="textarea" type="textarea" name="textarea"placeholder="Enter message here..." />
                       <Form.Text className="text-muted">
                         Thank you for sharing with us!
                       </Form.Text>
