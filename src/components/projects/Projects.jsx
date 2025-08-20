@@ -17,7 +17,7 @@ import {
 import Map from "../map/Map";
 import Signature from "../signature/Signature";
 
-export default function Projects() {
+const Projects = () => {
   // eslint-disable-next-line
   const [data, setData] = useState(projectData);
 
@@ -109,3 +109,5 @@ export default function Projects() {
     </>
   )
 }
+
+export default Projects;

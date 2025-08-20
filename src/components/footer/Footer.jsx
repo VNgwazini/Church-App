@@ -4,7 +4,8 @@ import {
 } from 'react-bootstrap/'
 import { Directions, YouTube, CreditCard, MenuBook } from '@mui/icons-material';
 
-export default function Footer() {
+
+const Footer = () => {
   return (
     <Container className="welcome py-4 content-container" id="welcome" fluid="true">
       <div className="footer d-flex align-items-center justify-content-between pl-1 pr-2 py-4">
@@ -19,3 +20,5 @@ export default function Footer() {
     </Container>
   )
 }
+
+export default Footer;

@@ -17,13 +17,13 @@
     "node-sass": "^9.0.0",
     "popper.js": "^1.16.1",
     "react": "^19.1.1",
-    "react-bootstrap": "^1.5.2",
+    "react-bootstrap": "^2.10.10",
     "react-dom": "19.1.1",
-    "react-router-dom": "^5.0.1",
+    "react-router-dom": "^7.8.1",
     "react-scripts": "^5.0.1"
   },
   "scripts": {
-    "start": "react-scripts start src/index.jsx",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
