@@ -6,7 +6,6 @@ import {
  Button,
  Carousel,
 } from 'react-bootstrap/'
-import FadeIn from 'react-fade-in';
 
 import { init } from 'ityped'
 import { useEffect, useRef } from "react"
@@ -31,9 +30,9 @@ export default function Home() {
 
  return (
   <Container className="home content-container pt-4" id="home">
-    <FadeIn>
+
       <Container className="content-container py-4" fluid="true">
-        <FadeIn>
+    
           <Row>
             <Col className="">
               <p className="text-center pt-4">
@@ -160,9 +159,9 @@ export default function Home() {
             </Carousel>
           </Col>
         </Row>
-        </FadeIn>
+    
       </Container>
-    </FadeIn>
+
    </Container>
   )
 }

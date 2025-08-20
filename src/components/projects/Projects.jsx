@@ -1,6 +1,6 @@
 import "./projects.scss";
 import { useState } from "react";
-import { 
+import {
   Row,
   Col,
   Container,
@@ -8,7 +8,6 @@ import {
   Button,
   Card,
 } from 'react-bootstrap/'
-import FadeIn from 'react-fade-in';
 
 
 import ProjectListItem from "../projectListItem/ProjectListItem";
@@ -19,13 +18,12 @@ import Map from "../map/Map";
 import Signature from "../signature/Signature";
 
 export default function Projects() {
-// eslint-disable-next-line
+  // eslint-disable-next-line
   const [data, setData] = useState(projectData);
 
   return (
     <>
-    <Container className="projects content-container pt-4" id="contact_us">
-      <FadeIn className="pt-4">
+      <Container className="projects content-container pt-4" id="contact_us">
         <Row>
           <Col className="">
             <p className="text-center pt-4">
@@ -40,15 +38,15 @@ export default function Projects() {
             </p>
           </Col>
         </Row>
-      </FadeIn>
-    </Container>
-    <Container className="home content-container" id="home">
-      <FadeIn>
+
+      </Container>
+      <Container className="home content-container" id="home">
+
         <Container className="hours content-container px-4" id="home" fluid="true">
           <Row>
             <Col className="d-flex justify-content-center py-4 my-4" lg={4} md={12} sm={12}>
               <Card className="card-size">
-              <Card.Title className="text-center px-2">Contact Us</Card.Title>
+                <Card.Title className="text-center px-2">Contact Us</Card.Title>
                 <Card.Body className="d-flex align-items-center text-center">
                   <Form action="https://formsubmit.co/vusumuzi.ngwazini@gmail.com" method="POST">
                     <p className="text-center pt-4">
@@ -69,7 +67,7 @@ export default function Projects() {
                     </Form.Group>
                     <Form.Group className="mb-3" controlId="formBasicMessage">
                       <Form.Label>Personal Message</Form.Label>
-                      <Form.Control as="textarea" type="textarea" name="textarea"placeholder="Enter message here..." />
+                      <Form.Control as="textarea" type="textarea" name="textarea" placeholder="Enter message here..." />
                       <Form.Text className="text-muted">
                         Thank you for sharing with us!
                       </Form.Text>
@@ -81,8 +79,8 @@ export default function Projects() {
                       Submit
                     </Button>
                   </Form>
-                <Card.Text>
-                </Card.Text>
+                  <Card.Text>
+                  </Card.Text>
                 </Card.Body>
               </Card>
             </Col>
@@ -91,23 +89,23 @@ export default function Projects() {
                 <Card.Title className="text-center px-2">Our Ministries &amp; Missions</Card.Title>
                 <Card.Body className="text-center">
                   <Row>
-                  {data.map((item) => (
-                    <ProjectListItem item={item}/>
-                  ))}
+                    {data.map((item) => (
+                      <ProjectListItem item={item} />
+                    ))}
                   </Row>
-                <Card.Text>
-                </Card.Text>
+                  <Card.Text>
+                  </Card.Text>
                 </Card.Body>
               </Card>
             </Col>
           </Row>
         </Container>
-      </FadeIn>
-    </Container>
-    <Container fluid="true">
-      <Map/>
-      <Signature/>
-    </Container>
+
+      </Container>
+      <Container fluid="true">
+        <Map />
+        <Signature />
+      </Container>
     </>
   )
 }

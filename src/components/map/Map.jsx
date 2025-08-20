@@ -7,15 +7,14 @@ import {
   Row,
   Col
  } from 'react-bootstrap/'
- import FadeIn from 'react-fade-in';
-
+ 
   
  export default function Map() {
   
   return (
     <>
     <Container className="home content-container" id="home">
-      <FadeIn>
+  
         <Container className="hours content-container py-4 px-4" id="home" fluid="true">
             <Row>
               <Col className="d-flex justify-content-center py-4" lg={4} md={12} sm={12}>
@@ -64,7 +63,7 @@ import {
             </Col>
           </Row>
         </Container>
-      </FadeIn>
+  
     </Container>
   </>
   )

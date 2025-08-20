@@ -6,7 +6,6 @@ import {
   Card,
   ListGroup,
 } from 'react-bootstrap/'
-import FadeIn from 'react-fade-in';
 
 
 export default function Joinus() {
@@ -14,7 +13,7 @@ export default function Joinus() {
   return (
     <>
       <Container className="joinus content-container" id="home">
-      <FadeIn>
+  
         <Container className="hours content-container pt-4 px-4" id="home" fluid="false">
           <Row>
             <Col className="d-flex justify-content-center pt-4" lg={4} md={12} sm={12} xs={12}>
@@ -64,7 +63,7 @@ export default function Joinus() {
             </Col>
           </Row>
         </Container>
-      </FadeIn>
+  
     </Container>
     </>
   )

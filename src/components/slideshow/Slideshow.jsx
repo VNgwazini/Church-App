@@ -1,23 +1,22 @@
 import "./slideshow.scss";
 import {
- Container, 
- Row,
- Col,
- Carousel,
+  Container,
+  Row,
+  Col,
+  Carousel,
 } from 'react-bootstrap/'
-import FadeIn from 'react-fade-in';
 
 
 export default function Slideshow() {
- 
- return (
-  <Container className="home content-container pb-4" id="home" fluid="true">
-    <FadeIn>
+
+  return (
+    <Container className="home content-container pb-4" id="home" fluid="true">
+
       <Container className="content-container testimonials py-4 px-4">
         <Row className="d-flex justify-content-center">
           <Col lg={6} md={12} sm={12} xs={12}>
             <Carousel variant="dark">
-            <Carousel.Item>
+              <Carousel.Item>
                 <img
                   className="d-block w-100"
                   src="assets/Church_hero.jpg"
@@ -58,7 +57,7 @@ export default function Slideshow() {
                   height={360}
                 />
                 <Carousel.Caption>
-                <h5>Children's Ministry</h5>
+                  <h5>Children's Ministry</h5>
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item>
@@ -91,7 +90,7 @@ export default function Slideshow() {
                   height={360}
                 />
                 <Carousel.Caption>
-                <h5>Community Service</h5>
+                  <h5>Community Service</h5>
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item>
@@ -102,14 +101,14 @@ export default function Slideshow() {
                   height={360}
                 />
                 <Carousel.Caption>
-                <h5>Health Ministry</h5>
+                  <h5>Health Ministry</h5>
                 </Carousel.Caption>
               </Carousel.Item>
             </Carousel>
           </Col>
         </Row>
       </Container>
-    </FadeIn>
-   </Container>
+
+    </Container>
   )
 }
