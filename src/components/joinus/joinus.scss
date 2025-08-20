@@ -1,50 +1,86 @@
-.joinus{
+.joinus {
   background: white;
   color: black;
 
-  .hours{
+  .hours {
     background-color: white;
-    .card{
+
+    .card {
       border-color: transparent !important;
       background-color: white;
-      .card-title{
+
+      .card-title {
         font-size: x-large;
         font-weight: bold;
       }
-      .list-group-item{
+
+      .list-group-item {
         background-color: white;
       }
-      .card-text{
+
+      .card-text {
         font-size: medium;
       }
     }
-    .map{
-        background-color: white !important;
+
+    .map {
+      background-color: white !important;
     }
   }
-  .typing{
+
+  .typing {
     color: maroon;
-  }
-  .card-title{
-    color: maroon;
-    font-weight:900;
   }
 
-  .card-subtitle{
+  .card-title {
+    color: maroon;
+    font-weight: 900;
+  }
+
+  .card-subtitle {
     color: maroon !important;
-    font-weight:900;
+    font-weight: 900;
   }
 
-  .list-group{
+  .list-group {
     font-weight: 700;
   }
 
-  .card-size{
+  .card-size {
     background: white;
     border: transparent;
   }
 
-  iframe{
+  iframe {
     width: 100%;
+  }
+
+  .videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    height: 0;
+  }
+
+  @media (max-width: 1000px) {
+    .videoWrapper {
+      position: relative;
+      padding-bottom: 99%;
+      height: 0;
+    }
+  }
+
+  .videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .previous-sermons {
+    font-weight: 700;
+    color: maroon;
+    font-size: large;
   }
 }
