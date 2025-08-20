@@ -16,4 +16,16 @@
   .card-img {
     object-fit:fill !important;
   }
+
+  .card-size-social {
+    height: 100%;
+    width: 100%;
+    background: white;
+    border: transparent;
+  }
+
+    .card-title {
+    color: maroon;
+    font-weight: 900;
+  }
 }
