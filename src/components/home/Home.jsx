@@ -5,6 +5,7 @@ import {
   Col,
   Button,
   Carousel,
+  ButtonGroup,
 } from 'react-bootstrap/'
 
 import { init } from 'ityped'
@@ -61,17 +62,18 @@ export default function Home() {
             </p>
           </Col>
         </Row>
-        <Row className="primary-buttons py-4">
-          <Col className="">
+        <Row className="d-flex justify-content-center primary-buttons py-4">
+          <ButtonGroup className="w-100 pb-4 px-4" aria-label="Basic example">
             <Button variant="danger" href="https://www.youtube.com/channel/UC5jYWyaWW3b0r7MUrK1WVxw/featured" target="_blank">
               Watch Online
             </Button>
-          </Col>
-          <Col className="">
             <Button variant="outline-danger" href="https://goo.gl/maps/9moeHe6fZFbXKZTF8" target="_blank">
               Visit In Person
             </Button>
-          </Col>
+            <Button variant="danger" href="/contact_us" target="_blank">
+              Contact Us
+            </Button>
+          </ButtonGroup>
         </Row>
         <Row className="d-flex justify-content-center">
           <Col lg={12} md={12} sm={12} xs={12}>
