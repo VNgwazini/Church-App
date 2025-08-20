@@ -16,15 +16,13 @@ export default function Links() {
 
   return (
     <>
-    <Container className="links content-container pb-4" id="projects">
-      <Row className="mx-4">
-        {data.map((item) => (
-          <>
-            <LinksListItem item={item}/>
-          </>
-        ))}
-      </Row>
-    </Container>
+      <Container className="links content-container pb-4" id="projects">
+        <Row className="mx-4">
+          {data.map((item, index) => (
+            <LinksListItem key={item.id || index} item={item} />
+          ))}
+        </Row>
+      </Container>
     </>
   )
 }

@@ -12,7 +12,7 @@ import Footer from './components/footer/Footer';
 
 const container = document.getElementById('root');
 const root = createRoot(container);
-console.log({ App, Projects, Bulletin, Topbar, Footer });
+
 root.render(
   <BrowserRouter>
     <Topbar />

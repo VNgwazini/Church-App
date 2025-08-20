@@ -11,8 +11,6 @@ import DirectionsIcon from '@mui/icons-material/Directions';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import CreditCardIcon from '@mui/icons-material/CreditCard';
 
-console.log({ Container, Nav, Navbar });
-
 const Topbar = () => {
   return (
     <Container className="topbar py-4 content-container" id="topbar" fluid="true">

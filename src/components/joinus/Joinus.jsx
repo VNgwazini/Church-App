@@ -48,7 +48,7 @@ export default function Joinus() {
                   <iframe
                     height="315"
                     src="https://www.youtube.com/embed/c0dahMbWNU4?start=1&autoplay=1&mute=1"
-                    frameborder="0"
+                    frameBorder="0"
                     title="Google Maps embed"
                     className=""
                     loading="lazy"

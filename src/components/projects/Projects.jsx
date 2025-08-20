@@ -58,9 +58,9 @@ const Projects = () => {
                     </Form.Group>
                     <Form.Group className="mb-3" controlId="formBasicEmail">
                       <Form.Label>Email address</Form.Label>
-                      <Form.Control type="email" name="email" placeholder="Enter email here..." />
-                      <Form.Control type="hidden" name="_url" value="https://demo-church-app.vusa.io/contact_us" />
-                      <Form.Control type="hidden" name="_next" value="https://demo-church-app.vusa.io/" />
+                      <Form.Control key={"emailFormK"} type="email" name="email" placeholder="Enter email here..." />
+                      <Form.Control key={"urlFormK"} type="hidden" name="_url" value="https://demo-church-app.vusa.io/contact_us" />
+                      <Form.Control key={"nextFormK"} type="hidden" name="_next" value="https://demo-church-app.vusa.io/" />
                       <Form.Text className="text-muted">
                         We'll never share your email with anyone else.
                       </Form.Text>
@@ -90,7 +90,7 @@ const Projects = () => {
                 <Card.Body className="text-center">
                   <Row>
                     {data.map((item) => (
-                      <ProjectListItem item={item} />
+                      <ProjectListItem key={item.id || item.name} item={item} />
                     ))}
                   </Row>
                   <Card.Text>

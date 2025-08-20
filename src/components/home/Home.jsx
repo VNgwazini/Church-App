@@ -75,7 +75,7 @@ export default function Home() {
           </Row>
           <Row className="d-flex justify-content-center">
           <Col lg={12} md={12} sm={12} xs={12}>
-            <Carousel variant="dark">
+            <Carousel variant="dark" nextLabel={false} prevLabel={false} indicators={false}className="carousel">
             <Carousel.Item>
                 <img
                   className="d-block w-100"
