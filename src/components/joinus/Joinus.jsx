@@ -14,20 +14,23 @@ export default function Joinus() {
     <>
       <Container className="joinus content-container" id="home">
 
-        <Container className="hours content-container pt-4 px-4" id="home" fluid="false">
+        <Container className="hours content-container py-4" id="home" fluid="false">
           <Row>
             <Col className="map d-flex justify-content-center align-items-center py-4" >
               <Card className="card-size flex-grow-1">
-                <Card.Title className="text-center px-2">Latest Message</Card.Title>
+                <Card.Title className="text-center">Latest Message</Card.Title>
                 <Card.Body className="text-center">
                   <div className="videoWrapper">
                     <iframe
                       height="315"
-                      src="https://www.youtube.com/embed?listType=playlist&list=UU5jYWyaWW3b0r7MUrK1WVxw"
+                      width="560"
+                      src="https://www.youtube.com/embed?start=1&autoplay=1&mute=1&listType=playlist&list=UU5jYWyaWW3b0r7MUrK1WVxw&autoplay=1"
                       frameBorder="0"
-                      title="Google Maps embed"
+                      title="Latest Sermon embed"
                       className=""
                       loading="lazy"
+                      allowFullScreen={true}
+                      allow={{autoplay: true, clipboardWrite: true, encryptedMedia: true, pictureInPicture: true, webShare: true}}
                     >
                     </iframe>
                   </div>
@@ -39,7 +42,7 @@ export default function Joinus() {
                         <br></br>
                         <div className="videoWrapper">
                           <iframe
-                            title="Previous Sermon 1"
+                            title="Previous Sermon 1 embed"
                             src="https://www.youtube.com/embed?listType=playlist&list=UU5jYWyaWW3b0r7MUrK1WVxw&index=2">
                           </iframe>
                         </div>
@@ -48,7 +51,7 @@ export default function Joinus() {
                         <br></br>
                         <div className="videoWrapper">
                           <iframe
-                            title="Previous Sermon 2"
+                            title="Previous Sermon 2 embed"
                             src="https://www.youtube.com/embed?listType=playlist&list=UU5jYWyaWW3b0r7MUrK1WVxw&index=3">
                           </iframe>
                         </div>
@@ -57,7 +60,7 @@ export default function Joinus() {
                         <br></br>
                         <div className="videoWrapper">
                           <iframe
-                            title="Previous Sermon 3"
+                            title="Previous Sermon 3 embed"
                             src="https://www.youtube.com/embed?listType=playlist&list=UU5jYWyaWW3b0r7MUrK1WVxw&index=4">
                           </iframe>
                         </div>
@@ -69,9 +72,9 @@ export default function Joinus() {
             </Col>
           </Row>
           <Row>
-            <Col className="d-flex justify-content-center pt-4" lg={6} md={12} sm={12} xs={12}>
+            <Col className="d-flex justify-content-center py-4" lg={6} md={12} sm={12} xs={12}>
               <Card className="card-size">
-                <Card.Title className="text-center px-2">Join Us For Worship</Card.Title>
+                <Card.Title className="text-center py-4">Join Us For Worship</Card.Title>
                 <Card.Body className="text-center">
                   <Card.Subtitle className="text-center text-muted day">
                     Wednesday
@@ -104,9 +107,9 @@ export default function Joinus() {
                 </Card.Body>
               </Card>
             </Col>
-            <Col className="d-flex justify-content-center pt-4" lg={6} md={12} sm={12} xs={12}>
+            <Col className="d-flex justify-content-center py-4" lg={6} md={12} sm={12} xs={12}>
               <Card className="card-size-social">
-                <Card.Title className="text-center">Social Media Updates</Card.Title>
+                <Card.Title className="text-center py-4">Social Media Updates</Card.Title>
                 <Card.Body className="text-center">
                   <Card.Subtitle className="text-center text-muted day">
                     <div>
