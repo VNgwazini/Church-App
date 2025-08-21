@@ -83,6 +83,31 @@
     height: 100%;
   }
 
+  @media (min-width: 1000px) {
+    .videoWrapper {
+      /* Basic card styling */
+      background-color: #f0f0f0;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+      /* Add transition for smooth animation */
+      transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    }
+
+    .videoWrapper:hover {
+      /* When hovered, lift the card and add a subtle bounce */
+      transform: translateY(-20px);
+      /* Adjust value for desired bounce height */
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      /* Enhance shadow on hover */
+    }
+  }
+
   .previous-sermons {
     font-weight: 700;
     color: maroon;

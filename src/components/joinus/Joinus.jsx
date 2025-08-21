@@ -18,7 +18,7 @@ export default function Joinus() {
           <Row>
             <Col className="map d-flex justify-content-center align-items-center py-4" >
               <Card className="card-size flex-grow-1">
-                <Card.Title className="text-center">Latest Message</Card.Title>
+                <Card.Title className="text-center py-2">Latest Message</Card.Title>
                 <Card.Body className="text-center">
                   <div className="videoWrapper">
                     <iframe
@@ -37,7 +37,7 @@ export default function Joinus() {
                   <br></br>
                   <Card.Text className="previous-sermons">
                     Previous 3 Sermons
-                    <Row>
+                    <Row className="bounce-card">
                       <Col>
                         <br></br>
                         <div className="videoWrapper">
