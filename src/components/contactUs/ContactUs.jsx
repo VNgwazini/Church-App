@@ -1,4 +1,4 @@
-import "./projects.scss";
+import "./contactUs.scss";
 import { useState } from "react";
 import {
   Row,
@@ -10,20 +10,20 @@ import {
 } from 'react-bootstrap/'
 
 
-import ProjectListItem from "../projectListItem/ProjectListItem";
+import ContactUsListItem from "../contactUsListItem/ContactUsListItem";
 import {
   projectData
 } from "../../data";
 import Map from "../map/Map";
 import Signature from "../signature/Signature";
 
-const Projects = () => {
+const ContactUs = () => {
   // eslint-disable-next-line
   const [data, setData] = useState(projectData);
 
   return (
     <>
-      <Container className="projects content-container pt-4" id="contact_us">
+      <Container className="contact-us content-container pt-4" id="contact_us">
         <Row>
           <Col className="">
             <p className="text-center pt-4">
@@ -72,9 +72,6 @@ const Projects = () => {
                         Thank you for sharing with us!
                       </Form.Text>
                     </Form.Group>
-                    {/* <Form.Group className="mb-3" controlId="formBasicCheckbox">
-                      <Form.Check type="checkbox" label="Check me out" />
-                    </Form.Group> */}
                     <Button variant="danger" type="submit">
                       Submit
                     </Button>
@@ -90,7 +87,7 @@ const Projects = () => {
                 <Card.Body className="text-center">
                   <Row>
                     {data.map((item) => (
-                      <ProjectListItem key={item.id || item.name} item={item} />
+                      <ContactUsListItem key={item.id || item.name} item={item} />
                     ))}
                   </Row>
                   <Card.Text>
@@ -110,4 +107,4 @@ const Projects = () => {
   )
 }
 
-export default Projects;
+export default ContactUs;

@@ -1,12 +1,12 @@
-import "./projectListItem.scss";
+import "./contactUsListItem.scss";
 import { 
   Col,
   Card,
 } from 'react-bootstrap/'
 
-export default function ProjectListItem({item}) {
+export default function ContactUsListItem({item}) {
   return (
-        <Col className="d-flex justify-content-center text-center projectListItem my-4" lg={6} md={6} sm={6}>
+        <Col className="d-flex justify-content-center text-center contactUsListItem my-4" lg={6} md={6} sm={6}>
           <a 
             href={item.link}
             target="_blank" rel="noreferrer"

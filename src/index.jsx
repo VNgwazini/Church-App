@@ -4,7 +4,7 @@ import './index.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import App from './components/app/App';
-import Projects from './components/projects/Projects';
+import ContactUs from './components/contactUs/ContactUs';
 import Bulletin from './components/bulletin/Bulletin';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Topbar from './components/topbar/Topbar';
@@ -19,7 +19,7 @@ root.render(
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/home" element={<App />} />
-      <Route path="/contact_us" element={<Projects />} />
+      <Route path="/contact_us" element={<ContactUs />} />
       <Route path="/bulletin" element={<Bulletin />} />
     </Routes>
     <Footer />
