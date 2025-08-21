@@ -13,7 +13,7 @@ import {
   
   return (
     <>
-    <Container className="home content-container" id="home">
+    <Container className="home content-container py-4" id="home">
   
         <Container className="hours content-container py-4 px-4" id="home" fluid="true">
             <Row>

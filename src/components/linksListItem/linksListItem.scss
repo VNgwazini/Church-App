@@ -1,17 +1,27 @@
-.linksListItem{
+a {
   background: inherit;
   color: inherit;
 
-  h5{
+  h5 {
     color: maroon;
   }
 
-  .card-footer{
+  .card-footer {
     color: maroon !important;
     font-weight: 700;
   }
 
+  .card-title {
+    text-align: center;
+    color: yellow;
+    font-weight: 900;
+  }
+
+  .card-body {
+    text-align: center;
+  }
+
   .card-img {
-    object-fit:contain;
+    object-fit: scale-down !important;
   }
 }

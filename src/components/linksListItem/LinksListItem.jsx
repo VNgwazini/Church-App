@@ -6,7 +6,7 @@ import {
 
 export default function LinksListItem({item}) {
   return (
-        <Col className="d-flex justify-content-center text-center linksListItem my-4 py-4" lg={3} md={3} sm={3} xs={6}>
+        <Col className="d-flex justify-content-center text-center linksListItem pb-4" lg={3} md={3} sm={3} xs={6}>
           <a 
             href={item.link}
             target="_blank" rel="noreferrer"
@@ -17,7 +17,12 @@ export default function LinksListItem({item}) {
                 src={item.imgSrc}
                 alt={item.imgAlt}
                 className="img-thumbnail"
-                style={{border: "transparent"}}
+                style={{
+                  height: "150px",
+                  border: "transparent",
+                  objectFit: "cover",
+                  borderRadius: "10px",
+                }}
               />
               <Card.Title>{item.title}</Card.Title>
               <Card.Body>

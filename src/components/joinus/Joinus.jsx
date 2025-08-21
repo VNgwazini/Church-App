@@ -72,7 +72,7 @@ export default function Joinus() {
             </Col>
           </Row>
           <Row>
-            <Col className="d-flex justify-content-center py-4" lg={6} md={12} sm={12} xs={12}>
+            <Col className="d-flex justify-content-center" lg={6} md={12} sm={12} xs={12}>
               <Card className="card-size">
                 <Card.Title className="text-center py-4">Join Us For Worship</Card.Title>
                 <Card.Body className="text-center">
@@ -107,7 +107,7 @@ export default function Joinus() {
                 </Card.Body>
               </Card>
             </Col>
-            <Col className="d-flex justify-content-center py-4" lg={6} md={12} sm={12} xs={12}>
+            <Col className="d-flex justify-content-center" lg={6} md={12} sm={12} xs={12}>
               <Card className="card-size-social">
                 <Card.Title className="text-center py-4">Social Media Updates</Card.Title>
                 <Card.Body className="text-center">
