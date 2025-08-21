@@ -13,8 +13,8 @@ export default function App() {
     <>
       <Home />
       <OfferedServices />
-      <Joinus />
       <Links />
+      <Joinus />
       <Map />
       <Signature />
     </>

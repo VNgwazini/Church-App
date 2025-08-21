@@ -18,7 +18,7 @@ export default function Joinus() {
           <Row>
             <Col className="map d-flex justify-content-center align-items-center py-4" >
               <Card className="card-size flex-grow-1">
-                <Card.Title className="text-center py-2">Latest Message</Card.Title>
+                <Card.Title className="text-center">Latest Message</Card.Title>
                 <Card.Body className="text-center">
                   <div className="videoWrapper">
                     <iframe
@@ -30,14 +30,14 @@ export default function Joinus() {
                       className=""
                       loading="lazy"
                       allowFullScreen={true}
-                      allow={{autoplay: true, clipboardWrite: true, encryptedMedia: true, pictureInPicture: true, webShare: true}}
+                      allow={{ autoplay: true, clipboardWrite: true, encryptedMedia: true, pictureInPicture: true, webShare: true }}
                     >
                     </iframe>
                   </div>
                   <br></br>
                   <Card.Text className="previous-sermons">
                     Previous 3 Sermons
-                    <Row className="bounce-card">
+                    <Row>
                       <Col>
                         <br></br>
                         <div className="videoWrapper">
@@ -111,11 +111,14 @@ export default function Joinus() {
               <Card className="card-size-social">
                 <Card.Title className="text-center py-4">Social Media Updates</Card.Title>
                 <Card.Body className="text-center">
-                  <Card.Subtitle className="text-center text-muted day">
+                  <Card.Subtitle className="text-center text-muted pb-">
+                    Follow us on Facebook
+                  </Card.Subtitle>
+                  <Card.Text>
                     <div>
                       <iframe
                         title="Facebook Posts embed"
-                        src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D61572554996177&tabs=timeline%2C%20events&width=300&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" height="500"
+                        src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D61572554996177&tabs=timeline%2C&width=300&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" height="500"
                         style={{ border: "none", overflow: "hidden" }}
                         scrolling="no"
                         frameBorder="0"
@@ -123,8 +126,6 @@ export default function Joinus() {
                         allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
                       </iframe>
                     </div>
-                  </Card.Subtitle>
-                  <Card.Text>
                   </Card.Text>
                 </Card.Body>
               </Card>
