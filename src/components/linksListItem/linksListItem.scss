@@ -1,4 +1,4 @@
-a {
+.linksListItem a {
   background: inherit;
   color: inherit;
 
@@ -13,7 +13,7 @@ a {
 
   .card-title {
     text-align: center;
-    color: yellow;
+    color: maroon;
     font-weight: 900;
   }
 
@@ -28,8 +28,6 @@ a {
   @media (min-width: 1000px) {
     .card {
       /* Basic card styling */
-      background-color: #f0f0f0;
-      border: 1px solid #ccc;
       border-radius: 8px;
       display: flex;
       flex-direction: column;
