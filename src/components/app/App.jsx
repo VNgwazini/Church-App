@@ -5,6 +5,7 @@ import Map from "../map/Map";
 import OfferedServices from "../offeredServices/OfferedServices";
 import Signature from "../signature/Signature";
 import Links from "../links/Links";
+import LatestMessage from "../latestMessage/LatestMessage";
 
 
 export default function App() {
@@ -14,6 +15,7 @@ export default function App() {
       <Home />
       <OfferedServices />
       <Links />
+      <LatestMessage />
       <Joinus />
       <Map />
       <Signature />

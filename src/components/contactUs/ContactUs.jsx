@@ -16,6 +16,7 @@ import {
 } from "../../data";
 import Map from "../map/Map";
 import Signature from "../signature/Signature";
+import Joinus from "../joinus/Joinus";
 
 const ContactUs = () => {
   // eslint-disable-next-line
@@ -100,6 +101,7 @@ const ContactUs = () => {
 
       </Container>
       <Container fluid="true">
+        <Joinus />
         <Map />
         <Signature />
       </Container>
