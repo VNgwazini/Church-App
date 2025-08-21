@@ -16,8 +16,8 @@ export default function Links() {
 
   return (
     <>
-      <Container className="links content-container pb-4" id="projects">
-        <Row className="mx-4">
+      <Container className="links content-container py-4" id="projects">
+        <Row className="links-row d-flex justify-content-center">
           {data.map((item, index) => (
             <LinksListItem key={item.id || index} item={item} />
           ))}

@@ -1,30 +1,38 @@
-.links{
+.links {
   background: white;
   color: maroon;
-  
-  h5{
-    font-weight:900;
+  padding-bottom: 10vh;
+
+  h5 {
+    font-weight: 900;
   }
-  .card-size{
+
+  .card-size {
     height: 90%;
     color: maroon !important;
 
   }
-  a:link, a:visited,  a:hover, a:active{
+
+  a:link,
+  a:visited,
+  a:hover,
+  a:active {
     text-decoration: none;
   }
+
   .card-img {
-    object-fit:fill !important;
+    object-fit: fill !important;
   }
 
-  .card-size-social {
-    height: 100%;
+  .card-size {
+    color: maroon !important;
+    height: 90%;
     width: 100%;
     background: white;
     border: transparent;
   }
 
-    .card-title {
+  .card-title {
     color: maroon;
     font-weight: 900;
   }
