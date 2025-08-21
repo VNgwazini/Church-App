@@ -77,61 +77,81 @@ export default function Home() {
         </Row>
         <Row className="d-flex justify-content-center">
           <Col lg={12} md={12} sm={12} xs={12}>
-            <Carousel variant="dark" nextLabel={false} prevLabel={false} indicators={false} className="carousel">
+            <Carousel
+              variant="dark"
+              nextLabel={false}
+              prevLabel={false}
+              indicators={false}
+              className="carousel"
+            >
               <Carousel.Item>
                 <img
-                  className="d-block w-100"
                   src="assets/Church_hero.jpg"
-                  alt="Furniture Assembly &amp; Disassembly Package"
+                  alt="Church Hero"
+                  style={{
+                    objectFit: "cover",
+                    borderRadius: "10px",
+                  }}
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className="d-block w-100"
                   src="assets/Church_podium.jpg"
-                  alt="Junk &amp; Trash Hauling Package"
+                  alt="Church Podium"
+                  style={{
+                    objectFit: "cover",
+                    borderRadius: "10px",
+                  }}
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className="d-block w-100"
                   src="assets/Church_anasda_youth.jpg"
-                  alt="Junk &amp; Trash Hauling Package"
+                  alt="YOUTH MINISTRY"
+                  style={{
+                    objectFit: "cover",
+                    borderRadius: "10px",
+                  }}
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className="d-block w-100"
                   src="assets/Church_anasda_children.jpg"
-                  alt="Furniture Assembly &amp; Disassembly Package"
+                  alt="CHILDREN'S MINISTRY"
+                  style={{
+                    objectFit: "cover",
+                    borderRadius: "10px",
+                  }}
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className="d-block w-100"
                   src="assets/Church_hearts.jpg"
-                  alt="Commercial Moving Package"
+                  alt="FROM HEARTS TO HANDS PROJECT"
+                  style={{
+                    objectFit: "cover",
+                    borderRadius: "10px",
+                  }}
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className="d-block w-100"
                   src="assets/Church_Malaria_project.jpg"
-                  alt="Furniture Assembly &amp; Disassembly Package"
+                  alt="NOTHING BUT NETS PROJECT"
+                  style={{
+                    objectFit: "cover",
+                    borderRadius: "10px",
+                  }}
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className="d-block w-100"
                   src="assets/Church_community.jpg"
-                  alt="Furniture Assembly &amp; Disassembly Package"
-                />
-              </Carousel.Item>
-              <Carousel.Item>
-                <img
-                  className="d-block w-100"
-                  src="assets/Church_health_teaser.jpg"
-                  alt="Furniture Assembly &amp; Disassembly Package"
+                  alt="COMMUNITY SERVICES"
+                  style={{
+                    objectFit: "cover",
+                    borderRadius: "10px",
+                  }}
                 />
               </Carousel.Item>
             </Carousel>
