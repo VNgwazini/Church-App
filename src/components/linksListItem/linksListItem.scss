@@ -1,17 +1,50 @@
-.linksListItem{
+.linksListItem a {
   background: inherit;
   color: inherit;
 
-  h5{
+  h5 {
     color: maroon;
   }
 
-  .card-footer{
+  .card-footer {
     color: maroon !important;
     font-weight: 700;
   }
 
+  .card-title {
+    text-align: center;
+    color: maroon;
+    font-weight: 900;
+  }
+
+  .card-body {
+    text-align: center;
+  }
+
   .card-img {
-    object-fit:contain;
+    object-fit: scale-down !important;
+  }
+
+  @media (min-width: 1000px) {
+    .card {
+      /* Basic card styling */
+      border-radius: 8px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+      /* Add transition for smooth animation */
+      transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    }
+
+    .card:hover {
+      /* When hovered, lift the card and add a subtle bounce */
+      transform: translateY(-20px);
+      /* Adjust value for desired bounce height */
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      /* Enhance shadow on hover */
+    }
   }
 }

@@ -8,7 +8,7 @@ import {
   Button,
 } from 'react-bootstrap/'
 
-export default function Bulletin() {
+const Bulletin = () => {
 const url = "https://drive.google.com/file/d/1xI4-Bs4XbBZf0-pI4tkr7dQh7zV3wgL3/preview"
   return (
     <>
@@ -37,6 +37,6 @@ const url = "https://drive.google.com/file/d/1xI4-Bs4XbBZf0-pI4tkr7dQh7zV3wgL3/p
     <Footer/>
     </>
   )
-
 }
+export default Bulletin;
 

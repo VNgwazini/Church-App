@@ -41,7 +41,7 @@ export const linksData = [
   {
     id: 4,
     title: "Tithe & Offering",
-    link: "https://adventistgiving.org/#/org/ANPMAL/envelope/start",
+    link: "https://adventistgiving.org/donate/ANPMAL",
     text: "View our giving page.",
     footer: "2022 · Missions",
     imgSrc: "assets/Church_front.jpg",

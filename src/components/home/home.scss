@@ -1,104 +1,121 @@
-.home{
+.home {
   font-size: large;
-  position:relative;
+  position: relative;
   background: white;
   color: maroon;
 
 
-  .home-title{
+  .home-title {
     font-size: xx-large;
     font-weight: 900;
   }
 
-  .trusted{
+  .trusted {
     background-color: whitesmoke;
-    p{
+
+    p {
       font-size: medium;
     }
   }
 
-  .trusted-title{
+  .trusted-title {
     font-size: large;
     font-weight: 900;
   }
 
-  .primary-buttons{
-    justify-content: space-around !important;
-    text-align: center;
-  }
-
-  .testimonials{
-    h3{
+  .testimonials {
+    h3 {
       color: maroon;
     }
-    p{
+
+    p {
       color: black;
       font-size: medium;
     }
   }
-  .list-group-item{
+
+  .list-group-item {
     font-size: medium;
   }
-  .card{
+
+  .card {
     border-color: transparent !important;
   }
 
-  .card-text{
+  .card-text {
     font-size: medium;
   }
 
-  iframe{
+  .carousel-item {
+    position: relative;
     width: 100%;
+    /* Or a fixed pixel width if desired */
+    padding-top: 56.25%;
+    /* 9 / 16 * 100 = 56.25 */
+    overflow: hidden;
   }
-  img {
-    float: left;
-    height: 480px;
-    object-fit: fill;
-}
 
-  .hours{
+  .carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+
+  .hours {
     background-color: whitesmoke;
-    .card{
+
+    .card {
       background-color: whitesmoke;
-      .card-title{
+
+      .card-title {
         font-size: x-large;
         font-weight: bold;
       }
-      .list-group-item{
+
+      .list-group-item {
         background-color: whitesmoke;
       }
     }
   }
 
-  .map{
-    .card{
+  .map {
+    .card {
       background-color: whitesmoke;
     }
   }
 
-  .heading{
+  .heading {
     background-color: whitesmoke;
   }
 
-  .typing{
+  .typing {
     color: maroon;
   }
 
-  .badge{
+  .badge {
     background-color: maroon;
     color: white;
   }
 
-  .watching{
-    .card{
+  .watching {
+    .card {
       background-color: white;
     }
-    .card-title{
+
+    .card-title {
       font-weight: bold;
     }
-    .day{
+
+    .day {
       font-weight: bold !important;
     }
+  }
+
+    iframe{
+    width: 100%;
   }
 
 }

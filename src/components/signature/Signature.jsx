@@ -1,17 +1,16 @@
 import "./signature.scss";
 import {
- Container, 
- Row,
- Col,
+  Container,
+  Row,
+  Col,
 } from 'react-bootstrap/'
-import FadeIn from 'react-fade-in';
 
 
 export default function Signature() {
- 
- return (
-  <Container className="home content-container pt-2 pb-4" id="home" fluid="true">
-    <FadeIn>
+
+  return (
+    <Container className="home content-container pt-2 pb-4" id="home" fluid="true">
+
       <Container className="pb-2">
         <Row>
           <Col>
@@ -23,7 +22,7 @@ export default function Signature() {
           </Col>
         </Row>
       </Container>
-    </FadeIn>
-   </Container>
+
+    </Container>
   )
 }

@@ -1,13 +1,15 @@
-.footer{
-  position:fixed;
-  bottom:0;
+.footer {
+  position: fixed;
+  bottom: 0;
   background: white;
   color: maroon;
   height: 20px;
   width: 100vw;
 
-  a:link, a:visited,  a:hover, a:active
-  {
-      color: maroon;
+  a:link,
+  a:visited,
+  a:hover,
+  a:active {
+    color: maroon;
   }
 }

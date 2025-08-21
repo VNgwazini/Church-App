@@ -1,6 +1,6 @@
-import "./projects.scss";
+import "./contactUs.scss";
 import { useState } from "react";
-import { 
+import {
   Row,
   Col,
   Container,
@@ -8,24 +8,23 @@ import {
   Button,
   Card,
 } from 'react-bootstrap/'
-import FadeIn from 'react-fade-in';
 
 
-import ProjectListItem from "../projectListItem/ProjectListItem";
+import ContactUsListItem from "../contactUsListItem/ContactUsListItem";
 import {
   projectData
 } from "../../data";
 import Map from "../map/Map";
 import Signature from "../signature/Signature";
+import Joinus from "../joinus/Joinus";
 
-export default function Projects() {
-// eslint-disable-next-line
+const ContactUs = () => {
+  // eslint-disable-next-line
   const [data, setData] = useState(projectData);
 
   return (
     <>
-    <Container className="projects content-container pt-4" id="contact_us">
-      <FadeIn className="pt-4">
+      <Container className="contact-us content-container pt-4" id="contact_us">
         <Row>
           <Col className="">
             <p className="text-center pt-4">
@@ -40,15 +39,15 @@ export default function Projects() {
             </p>
           </Col>
         </Row>
-      </FadeIn>
-    </Container>
-    <Container className="home content-container" id="home">
-      <FadeIn>
+
+      </Container>
+      <Container className="home content-container" id="home">
+
         <Container className="hours content-container px-4" id="home" fluid="true">
           <Row>
             <Col className="d-flex justify-content-center py-4 my-4" lg={4} md={12} sm={12}>
               <Card className="card-size">
-              <Card.Title className="text-center px-2">Contact Us</Card.Title>
+                <Card.Title className="text-center px-2">Contact Us</Card.Title>
                 <Card.Body className="d-flex align-items-center text-center">
                   <Form action="https://formsubmit.co/vusumuzi.ngwazini@gmail.com" method="POST">
                     <p className="text-center pt-4">
@@ -60,29 +59,26 @@ export default function Projects() {
                     </Form.Group>
                     <Form.Group className="mb-3" controlId="formBasicEmail">
                       <Form.Label>Email address</Form.Label>
-                      <Form.Control type="email" name="email" placeholder="Enter email here..." />
-                      <Form.Control type="hidden" name="_url" value="https://demo-church-app.vusa.io/contact_us" />
-                      <Form.Control type="hidden" name="_next" value="https://demo-church-app.vusa.io/" />
+                      <Form.Control key={"emailFormK"} type="email" name="email" placeholder="Enter email here..." />
+                      <Form.Control key={"urlFormK"} type="hidden" name="_url" value="https://demo-church-app.vusa.io/contact_us" />
+                      <Form.Control key={"nextFormK"} type="hidden" name="_next" value="https://demo-church-app.vusa.io/" />
                       <Form.Text className="text-muted">
                         We'll never share your email with anyone else.
                       </Form.Text>
                     </Form.Group>
                     <Form.Group className="mb-3" controlId="formBasicMessage">
                       <Form.Label>Personal Message</Form.Label>
-                      <Form.Control as="textarea" type="textarea" name="textarea"placeholder="Enter message here..." />
+                      <Form.Control as="textarea" type="textarea" name="textarea" placeholder="Enter message here..." />
                       <Form.Text className="text-muted">
                         Thank you for sharing with us!
                       </Form.Text>
                     </Form.Group>
-                    {/* <Form.Group className="mb-3" controlId="formBasicCheckbox">
-                      <Form.Check type="checkbox" label="Check me out" />
-                    </Form.Group> */}
                     <Button variant="danger" type="submit">
                       Submit
                     </Button>
                   </Form>
-                <Card.Text>
-                </Card.Text>
+                  <Card.Text>
+                  </Card.Text>
                 </Card.Body>
               </Card>
             </Col>
@@ -91,23 +87,26 @@ export default function Projects() {
                 <Card.Title className="text-center px-2">Our Ministries &amp; Missions</Card.Title>
                 <Card.Body className="text-center">
                   <Row>
-                  {data.map((item) => (
-                    <ProjectListItem item={item}/>
-                  ))}
+                    {data.map((item) => (
+                      <ContactUsListItem key={item.id || item.name} item={item} />
+                    ))}
                   </Row>
-                <Card.Text>
-                </Card.Text>
+                  <Card.Text>
+                  </Card.Text>
                 </Card.Body>
               </Card>
             </Col>
           </Row>
         </Container>
-      </FadeIn>
-    </Container>
-    <Container fluid="true">
-      <Map/>
-      <Signature/>
-    </Container>
+
+      </Container>
+      <Container fluid="true">
+        <Joinus />
+        <Map />
+        <Signature />
+      </Container>
     </>
   )
 }
+
+export default ContactUs;
