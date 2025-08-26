@@ -9,6 +9,7 @@ import Bulletin from './components/bulletin/Bulletin';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Topbar from './components/topbar/Topbar';
 import Footer from './components/footer/Footer';
+import Watching from './components/watching/Watching';
 
 const container = document.getElementById('root');
 const root = createRoot(container);
@@ -19,6 +20,7 @@ root.render(
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/home" element={<App />} />
+      <Route path="/watching" element={<Watching />} />
       <Route path="/contact_us" element={<ContactUs />} />
       <Route path="/bulletin" element={<Bulletin />} />
     </Routes>

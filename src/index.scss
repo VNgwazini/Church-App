@@ -21,24 +21,34 @@ code {
 .content-container {
   width: 100%;
   padding: 0px 0;
-  overflow-y: scroll; /* Add the ability to scroll */
+  overflow-y: scroll;
+  /* Add the ability to scroll */
   overflow-x: hidden;
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
 }
 
-#navbar{
+#navbar {
   width: 100vw;
 }
 
-a:link, a:visited,  a:hover, a:active{
-    text-decoration: none;
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
 }
 
-.signature{
+.signature {
   font-size: medium;
   margin: 0 0 -100px 0;
-  a:link, a:visited,  a:hover, a:active{
+
+  a:link,
+  a:visited,
+  a:hover,
+  a:active {
     color: maroon;
     text-decoration: maroon !important;
   }

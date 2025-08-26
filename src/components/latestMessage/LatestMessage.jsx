@@ -23,7 +23,7 @@ export default function Joinus() {
                     <iframe
                       height="315"
                       width="560"
-                      src="https://www.youtube.com/embed?start=1&autoplay=1&mute=1&listType=playlist&list=UU5jYWyaWW3b0r7MUrK1WVxw&autoplay=1"
+                      src="https://www.youtube.com/embed?start=1&autoplay=1&mute=1&listType=playlist&list=UU5jYWyaWW3b0r7MUrK1WVxw"
                       frameBorder="0"
                       title="Latest Sermon embed"
                       className=""
@@ -35,32 +35,25 @@ export default function Joinus() {
                   </div>
                   <br></br>
                   <Card.Text className="previous-sermons">
-                    Previous 3 Sermons
+                    Previous Messages
                     <Row>
-                      <Col>
+                      <Col xs={6} sm={6} md={6} lg={6}>
                         <br></br>
                         <div className="videoWrapper">
                           <iframe
                             title="Previous Sermon 1 embed"
+                            frameborder="0"
                             src="https://www.youtube.com/embed?listType=playlist&list=UU5jYWyaWW3b0r7MUrK1WVxw&index=2">
                           </iframe>
                         </div>
                       </Col>
-                      <Col>
+                      <Col xs={6} sm={6} md={6} lg={6}>
                         <br></br>
                         <div className="videoWrapper">
                           <iframe
                             title="Previous Sermon 2 embed"
+                            frameborder="0"
                             src="https://www.youtube.com/embed?listType=playlist&list=UU5jYWyaWW3b0r7MUrK1WVxw&index=3">
-                          </iframe>
-                        </div>
-                      </Col>
-                      <Col>
-                        <br></br>
-                        <div className="videoWrapper">
-                          <iframe
-                            title="Previous Sermon 3 embed"
-                            src="https://www.youtube.com/embed?listType=playlist&list=UU5jYWyaWW3b0r7MUrK1WVxw&index=4">
                           </iframe>
                         </div>
                       </Col>

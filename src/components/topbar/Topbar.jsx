@@ -29,7 +29,7 @@ const Topbar = () => {
               <MenuBookIcon className="icon" />
               &nbsp; Learning
             </Nav.Link>
-            <Nav.Link href="https://www.youtube.com/channel/UC5jYWyaWW3b0r7MUrK1WVxw/featured" target="_blank">
+            <Nav.Link href="/watching">
               <YouTubeIcon className="icon" />
               &nbsp; Watching
             </Nav.Link>
