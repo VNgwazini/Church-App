@@ -32,7 +32,7 @@ export const linksData = [
   {
     id: 3,
     title: "Weekly Message",
-    link: "https://www.youtube.com/channel/UC5jYWyaWW3b0r7MUrK1WVxw/featured",
+    link: "/watching",
     text: "View this week's sermon.",
     footer: "2022 · Ministries",
     imgSrc: "assets/Church_podium.jpg",
