@@ -50,7 +50,7 @@ export const linksData = [
   {
     id: 1,
     title: "Schedule",
-    link: "https://demo-church-app.vusa.io/bulletin",
+    link: "/bulletin",
     text: "View this week's bulletin.",
     footer: "2022 · Ministries",
     imgSrc: "assets/Church_bulletin.png",

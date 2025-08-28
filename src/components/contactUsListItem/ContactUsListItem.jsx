@@ -11,7 +11,7 @@ export default function ContactUsListItem({item}) {
             href={item.link}
             target="_blank" rel="noreferrer"
           >
-          <Card className="shadow card-size">
+          <Card className="shadow card-size" style={{borderRadius: "10px"}}>
               <Card.Img 
                 src={item.imgSrc}
                 alt={item.imgAlt}

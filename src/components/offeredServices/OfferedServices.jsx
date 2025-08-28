@@ -12,7 +12,7 @@ export default function OfferedServices() {
   return (
     <Container className="home content-container" id="home">
 
-      <Container className="content-container trusted py-4 px-4" fluid="true">
+      <Container className="content-container trusted py-4 px-4" fluid="true" style={{borderRadius: "10px"}}>
         <Row>
           <Col className="">
             <p className=" trusted-title text-center">

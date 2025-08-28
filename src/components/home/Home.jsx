@@ -64,7 +64,7 @@ export default function Home() {
         </Row>
         <Row className="d-flex justify-content-center primary-buttons py-4">
           <ButtonGroup className="w-100 pb-4 px-4" aria-label="Basic example">
-            <Button variant="danger" href="/watching">
+            <Button variant="danger" href="/watching" >
               Watch Online
             </Button>
             <Button variant="outline-danger" href="https://goo.gl/maps/9moeHe6fZFbXKZTF8" target="_blank">

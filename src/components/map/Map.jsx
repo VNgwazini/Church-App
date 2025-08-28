@@ -15,7 +15,7 @@ import {
     <>
     <Container className="home content-container py-4" id="home">
   
-        <Container className="hours content-container py-4 px-4" id="home" fluid="true">
+        <Container className="hours content-container py-4 px-4" id="home" fluid="true" style={{borderRadius: "10px"}}>
             <Row>
               <Col className="d-flex justify-content-center py-4" lg={4} md={12} sm={12}>
                 <Card className="card-size">
@@ -47,6 +47,7 @@ import {
                     title="Google Maps embed"
                     className=""
                     loading="lazy"
+                    style={{borderRadius: "10px"}}
                   >
                   </iframe>
                   <br></br>
