@@ -12,7 +12,7 @@ export default function LinksListItem({ item }) {
         target="_blank" rel="noreferrer"
       >
         <h5 className="py-2">{item.imgAlt}</h5>
-        <Card className="shadow card-size">
+        <Card className="shadow card-size" style={{borderRadius: "10px"}}>
           <Card.Img
             src={item.imgSrc}
             alt={item.imgAlt}
