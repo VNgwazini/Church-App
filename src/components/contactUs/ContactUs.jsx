@@ -39,11 +39,10 @@ const ContactUs = () => {
             </p>
           </Col>
         </Row>
-
       </Container>
       <Container className="home content-container" id="home">
 
-        <Container className="hours content-container px-4" id="home" fluid="true">
+        <Container className="hours content-container px-4" id="home" fluid="true" style={{borderRadius: "10px"}}>
           <Row>
             <Col className="d-flex justify-content-center py-4 my-4" lg={4} md={12} sm={12}>
               <Card className="card-size">
