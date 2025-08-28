@@ -1,5 +1,4 @@
 import Topbar from '../topbar/Topbar';
-import Footer from '../footer/Footer';
 import "./watching.scss";
 import {
   Row,
@@ -37,7 +36,6 @@ const Watching = () => {
         <Map />
         <Signature />
       </Container>
-      <Footer />
     </>
   )
 }

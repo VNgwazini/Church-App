@@ -1,5 +1,4 @@
 import Topbar from '../topbar/Topbar';
-import Footer from '../footer/Footer';
 import "./bulletin.scss";
 import { 
   Container,
@@ -34,7 +33,6 @@ const url = "https://drive.google.com/file/d/1xI4-Bs4XbBZf0-pI4tkr7dQh7zV3wgL3/p
           </iframe>
           {/* <embed src={url + "#toolbar=1&navpanes=0&scrollbar=0"} type="application/pdf" width="100%" height="600px" /> */}
     </Container>
-    <Footer/>
     </>
   )
 }

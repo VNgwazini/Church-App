@@ -8,7 +8,6 @@ import ContactUs from './components/contactUs/ContactUs';
 import Bulletin from './components/bulletin/Bulletin';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Topbar from './components/topbar/Topbar';
-import Footer from './components/footer/Footer';
 import Watching from './components/watching/Watching';
 
 const container = document.getElementById('root');
@@ -24,6 +23,5 @@ root.render(
       <Route path="/contact_us" element={<ContactUs />} />
       <Route path="/bulletin" element={<Bulletin />} />
     </Routes>
-    <Footer />
   </BrowserRouter>
 );

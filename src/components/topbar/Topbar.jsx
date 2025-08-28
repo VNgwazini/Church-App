@@ -13,12 +13,17 @@ import CreditCardIcon from '@mui/icons-material/CreditCard';
 
 const Topbar = () => {
   return (
-    <Container className="topbar py-4 content-container" id="topbar" fluid="true">
+    <Container className="topbar pb-4 content-container" id="topbar" fluid="true">
       <Navbar collapseOnSelect expand="lg" bg="light" variant="light" fixed="top" id="navbar">
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Brand href="/">
-          <img src="assets/Anasda_logo.png" alt="" />
+          <img
+            src="assets/Anasda_logo.png"
+            alt=""
+            height="50"
+            className="d-inline-block align-top"
+          />
         </Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
             <Nav.Link href="/home">
