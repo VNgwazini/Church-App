@@ -24,18 +24,7 @@ export default function Slideshow() {
                   height={360}
                 />
                 <Carousel.Caption>
-                  <h5>Visit All Nations</h5>
-                </Carousel.Caption>
-              </Carousel.Item>
-              <Carousel.Item>
-                <img
-                  className="d-block w-100"
-                  src="assets/Church_podium.jpg"
-                  alt="Junk &amp; Trash Hauling Package"
-                  height={360}
-                />
-                <Carousel.Caption>
-                  <h5>Spreading The Gospel.</h5>
+                  <h5>Visit Sample Church</h5>
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item>

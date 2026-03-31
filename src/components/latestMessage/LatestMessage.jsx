@@ -18,7 +18,7 @@ export default function Joinus() {
             <Col className="map d-flex justify-content-center align-items-center py-4" >
               <Card className="card-size flex-grow-1">
                 <Card.Title className="text-center py-2">Latest Message</Card.Title>
-                <Card.Text className="text-center py-2">Join us for our weekly online service every Saturday at 11:00 AM PST.</Card.Text>
+                <Card.Text className="text-center py-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</Card.Text>
                 <Card.Body className="text-center">
                   <div className="videoWrapper">
                     <iframe

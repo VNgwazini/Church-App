@@ -33,13 +33,13 @@ export default function Welcome() {
       <Row>
         <Col className="d-flex justify-content-center align-items-center">
           <Card className="card-size">
-            <Card.Title className="text-center px-2">Welcome to All Nations African Seventh-Day Adventist Church</Card.Title>
+            <Card.Title className="text-center px-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex inventore eum sed, quo error aliquam ullam, odio ea velit tenetur eos, ipsam consequatur autem iusto quae! Neque accusamus molestiae dignissimos!</Card.Title>
             <Card.Subtitle className="text-center text-muted">
               Our Goal is to: <span className="typing" ref={textRef}></span>
             </Card.Subtitle>
             <Card.Body className="text-center">
               <Card.Text>
-              The All Nations African Seventh-Day Adventist Church exists as part of the body of Jesus Christ to nurture believers by providing a positive, spiritual and culturally sensitive environment for the African community and other nations.
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut molestias fugiat, vero pariatur consectetur corporis voluptas. Voluptas error reprehenderit ut magni facere. Inventore magnam facere perferendis voluptas excepturi quidem neque.
               </Card.Text>
             </Card.Body>
           </Card>
