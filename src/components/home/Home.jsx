@@ -37,7 +37,7 @@ export default function Home() {
         <Row>
           <Col className="">
             <p className="text-center pt-4">
-              Sample Church
+              Sample Church Website
             </p>
           </Col>
         </Row>

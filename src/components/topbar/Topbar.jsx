@@ -16,7 +16,7 @@ const Topbar = () => {
     <Container className="topbar pb-4 content-container" id="topbar" fluid="true">
       <Navbar collapseOnSelect expand="lg" bg="light" variant="light" fixed="top" id="navbar">
         <Navbar.Brand href="/" style={{color: "maroon"}}>
-        Sample Church
+        Sample Church Website
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
