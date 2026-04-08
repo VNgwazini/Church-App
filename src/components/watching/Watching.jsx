@@ -18,14 +18,14 @@ const Watching = () => {
         <Row>
           <Col className="">
             <p className="text-center">
-              All Nations African Seventh-Day Adventist Church
+              Sample Church
             </p>
           </Col>
         </Row>
         <Row>
           <Col className="">
             <p className="home-title text-center">
-              Welcome to our Community
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
           </Col>
         </Row>

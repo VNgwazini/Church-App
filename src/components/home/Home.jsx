@@ -37,7 +37,7 @@ export default function Home() {
         <Row>
           <Col className="">
             <p className="text-center pt-4">
-              All Nations African Seventh-Day Adventist Church
+              Sample Church Website
             </p>
           </Col>
         </Row>
@@ -58,7 +58,7 @@ export default function Home() {
         <Row>
           <Col className="">
             <p className="text-center pt-2 px-2">
-              The All Nations African Seventh-Day Adventist Church exists as part of the body of Jesus Christ to nurture believers by providing a positive, spiritual and culturally sensitive environment for the African community and other nations.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque fugit laborum, voluptate hic dolore impedit, cumque ullam unde, ratione aut temporibus quam quasi fuga harum delectus vel consequuntur dolorum cupiditate.
             </p>
           </Col>
         </Row>
@@ -88,16 +88,6 @@ export default function Home() {
                 <img
                   src="assets/Church_hero.jpg"
                   alt="Church Hero"
-                  style={{
-                    objectFit: "cover",
-                    borderRadius: "10px",
-                  }}
-                />
-              </Carousel.Item>
-              <Carousel.Item>
-                <img
-                  src="assets/Church_podium.jpg"
-                  alt="Church Podium"
                   style={{
                     objectFit: "cover",
                     borderRadius: "10px",

@@ -15,8 +15,8 @@ export default function Signature() {
         <Row>
           <Col>
             <p className="signature text-center">
-              <a href="https://vusa.io/" target="_blank" rel="noreferrer">
-                Built by Vusumuzi Ngwazini | vusa.io
+              <a href="https://vusacodes.com/" target="_blank" rel="noreferrer">
+                Built by Vusa Codes LLC
               </a>
             </p>
           </Col>

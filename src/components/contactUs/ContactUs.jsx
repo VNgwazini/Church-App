@@ -28,7 +28,7 @@ const ContactUs = () => {
         <Row>
           <Col className="">
             <p className="text-center pt-4">
-              All Nations African Seventh-Day Adventist Church
+              Sample Church
             </p>
           </Col>
         </Row>
@@ -50,7 +50,7 @@ const ContactUs = () => {
                 <Card.Body className="d-flex align-items-center text-center">
                   <Form action="https://formsubmit.co/vusumuzi.ngwazini@gmail.com" method="POST">
                     <p className="text-center pt-4">
-                      Welcome! We're so glad you're interested in worshiping with us. Help us get to know you by filling out this card so we can reach out to you. We hope you have a blessed day!
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad quis sapiente neque commodi perferendis veritatis eos quia omnis, voluptates placeat quod ducimus beatae eveniet quo natus deserunt nesciunt adipisci aspernatur!
                     </p>
                     <Form.Group className="mb-3" controlId="formBasicPassword">
                       <Form.Label>Name</Form.Label>
